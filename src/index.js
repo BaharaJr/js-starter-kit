@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+/* eslint-disable no-debugger */
 import numeral from 'numeral';
 import './index.css';
 

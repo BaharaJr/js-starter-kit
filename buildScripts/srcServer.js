@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import express from 'express';
 import { join } from 'path';
 import open from 'open';
@@ -19,6 +20,7 @@ app.get('/', (req, res) => {
 
 app.listen(port, function(err){
   if(err){
+    // eslint-disable-next-line no-console
     console.log(error)
   } else{
     open('http://localhost:' +port);
